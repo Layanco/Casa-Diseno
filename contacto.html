@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+   
+ 
+    
+</head>
+<body>
+    <header style="padding-top:0;">
+        <div class="logoxd">
+  <img src="logo.png" width="105px" height="65px" >
+  </div>
+  
+        <nav class="navbar">
+        
+              <a href="carrusel.html">Inicio</a>
+              <a href="mision.html">Mision</a>
+              <a href="vision.html">Vision</a>
+              <a href="quienes.html">Quienes somos</a>
+              <a href="contacto.html">Contacto</a>
+        
+          </nav>
+        <div class="logoxd">
+          <a href="biografiaandres.html"><img src="andresi.png" width="60px" height="60px" style="border-radius:40%;border:4px solid rgb(0, 0, 0);margin:5px;"></a>
+        </div>
+        </header>
+    <div class="contact_form">
+
+        <div class="formulario">      
+          <h1>Formulario de contacto</h1>
+            <h3 style="text-align: center; padding-right: 20px; ">Ponte en contacto con nosotros</h3>
+    
+    
+              <form action="submeter-formulario.php" method="post">       
+    
+                
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                  
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="colocar_telefono">Teléfono
+                      </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>    
+                  
+                       
+                  
+                    <p>
+                      <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>    
+                  
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                    </p>                    
+                  
+                    <button  type="submit" name="enviar_formulario" id="enviar"><a href="gracias.html" style="text-decoration: none;">Enviar</a></button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>          
+                
+              </form>
+        </div>  
+      </div>
+    
+</body>
+</html>
